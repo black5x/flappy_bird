@@ -34,16 +34,10 @@ class Bird extends AnimationComponent{
         this.x = size.width /2;
         break;
       case GameState.gameover:
-        // TODO: Handle this case.
         break;
     }
 
-
-
     // print(timepassed);
-
-
-
 
   }
 
@@ -52,19 +46,20 @@ class Bird extends AnimationComponent{
     switch(gameState){
 
       case GameState.pause:
-        // TODO: Handle this case.
+        this.speedY = -500;
+        Flame.audio.play("bubble_pop.mp3", volume: 0.5);
         break;
       case GameState.play:
-        // TODO: Handle this case.
+        this.speedY = -500;
+        Flame.audio.play("bubble_pop.mp3", volume: 0.5);
         break;
       case GameState.gameover:
-        // TODO: Handle this case.
+
         break;
     }
 
 
-    this.speedY = -500;
-    Flame.audio.play("bubble_pop.mp3", volume: 0.5);
+
   }
 
 }
