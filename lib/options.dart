@@ -1,1 +1,2 @@
-double GAME_SPEED = 100;
+
+  double GAME_SPEED = 100 ;

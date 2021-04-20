@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:flame/flame.dart';
 import 'package:flame/game/base_game.dart';
 import 'package:flame/components/component.dart';
 import 'package:flame/gestures.dart';
@@ -44,22 +45,28 @@ class MyGame extends BaseGame with TapDetector{
   void update(double t) {
     super.update(t);
 
-    if(checkIf2CompoCollision(_bird.toRect(), _floor.toRect())){
-      print("Game Over!!");
-      gameState = GameState.gameover;
-    }
+    if (gameState == GameState.play) {
+      if (checkIf2CompoCollision(_bird.toRect(), _floor.toRect())) {
+        setGameover();
+      }
 
-    if(checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeDownRect())){
-      print("Game Over!!");
-      gameState = GameState.gameover;
-    }
+      if (checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeDownRect())) {
+        setGameover();
+      }
 
-    if(checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeUpRect())){
-      print("Game Over!!");
-      gameState = GameState.gameover;
-    }
+      if (checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeUpRect())) {
+        setGameover();
+      }
 
-    checkIfBirdPassedPipe();
+      checkIfBirdPassedPipe();
+    }
+  }
+
+  void setGameover(){
+    Flame.audio.play("hit.mp3");
+    Flame.audio.play("die.mp3");
+    gameState = GameState.gameover;
+
 
   }
 
@@ -74,6 +81,7 @@ class MyGame extends BaseGame with TapDetector{
         break;
       case GameState.gameover:
         gameState = GameState.pause;
+        _score.resetScore();
         break;
     }
   }
@@ -84,12 +92,14 @@ class MyGame extends BaseGame with TapDetector{
 
   }
 
-  bool checkIfBirdPassedPipe(){
+  void checkIfBirdPassedPipe(){
     if (_pipeSet.hadscored)
-      return false;
+      return;
 
     if (_pipeSet.getPipeDownRect().right < _bird.toRect().left){
-      print("Score!!");
+      Flame.audio.play("point.mp3");
+      _score.addScore();
+
       _pipeSet.scoreUpdated();
     }
 

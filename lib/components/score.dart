@@ -17,7 +17,7 @@ class Score extends PositionComponent{
   SpriteComponent _twoDigit;
   SpriteComponent _threeDigit;
 
-
+  int _score = 0;
 
   Score()
       :_digits = HashMap.from({
@@ -84,9 +84,22 @@ class Score extends PositionComponent{
 
   }
 
+  void addScore(){
+    _score++;
+  }
+
+  void resetScore(){
+    _score = 0;
+  }
+
 
   @override
   void render(Canvas c) {
+    String scoreInStr = _score.toString().padLeft(3, "0");
+    _oneDigit.sprite = _digits[scoreInStr[0]];
+    _twoDigit.sprite = _digits[scoreInStr[1]];
+    _threeDigit.sprite = _digits[scoreInStr[2]];
+
     _oneDigit.render(c);
     _twoDigit.render(c);
     _threeDigit.render(c);
