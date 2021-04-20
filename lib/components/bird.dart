@@ -3,6 +3,7 @@ import 'package:flame/components/animation_component.dart';
 import 'package:flame/flame.dart';
 import 'package:flappy_game/game_state.dart';
 import 'package:flappy_game/main.dart';
+import 'package:flappy_game/options.dart';
 
 
 final double BIRD_W = 52;
@@ -28,7 +29,7 @@ class Bird extends AnimationComponent{
         this.x = size.width / 2;
         break;
       case GameState.play:
-        speedY += GRAVITY * t;
+        speedY += (GRAVITY + GAME_SPEED) * t;
         this.anchor = Anchor.center;
         this.y += (speedY*t)/2;
         this.x = size.width /2;

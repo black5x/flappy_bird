@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baf14625-9501-4e4f-9773-9395c82a8f48" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/modules/android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/flappy_game_android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/score.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/consts/sprite_dimentions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/options.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/bird.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/bird.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/floor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/floor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/pipe_set.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/pipe_set.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/my_game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/my_game.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/black5x/flappy_bird.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r0Vj1GqNpGCHazC7jxiKMeCJ0m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\androidProjects\flappy_game\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baf14625-9501-4e4f-9773-9395c82a8f48" name="Default Changelist" comment="" />
+      <created>1618113125883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618113125883</updated>
+    </task>
+    <task id="LOCAL-00001" summary="committing">
+      <created>1618850234022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618850234022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1618930525292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618930525292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="committing" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="712" y="398" key="#Notifications" timestamp="1618115498492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="398" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1618115498492" />
+    <state x="526" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1618372578453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618372578453" />
+    <state x="100" y="188" width="1498" height="713" key="AVDManager" timestamp="1618930632557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="188" width="1498" height="713" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1618930632557" />
+    <state width="1745" height="190" key="GridCell.Tab.0.bottom" timestamp="1618941279928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1745" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618941279928" />
+    <state width="1745" height="190" key="GridCell.Tab.0.center" timestamp="1618941279928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1745" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618941279928" />
+    <state width="1745" height="190" key="GridCell.Tab.0.left" timestamp="1618941279928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1745" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618941279928" />
+    <state width="1745" height="190" key="GridCell.Tab.0.right" timestamp="1618941279928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1745" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618941279928" />
+    <state x="240" y="103" key="SettingsEditor" timestamp="1618372263157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="240" y="103" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618372263157" />
+    <state x="832" y="441" key="VCS.EditChangelistDialog" timestamp="1618941016207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="441" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618941016207" />
+    <state x="341" y="212" key="Vcs.Push.Dialog.v2" timestamp="1618930764957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="341" y="212" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618930764957" />
+    <state x="771" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618940993431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618940993431" />
+    <state x="523" y="286" key="git4idea.merge.GitPullDialog" timestamp="1618846863608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="286" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618846863608" />
+    <state x="570" y="424" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1618930726691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="424" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618930726691" />
+    <state x="421" y="251" key="run.anything.popup" timestamp="1618940277248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="251" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618940277248" />
+  </component>
+</project>

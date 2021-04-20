@@ -7,6 +7,7 @@ import 'package:flame/sprite.dart';
 import 'package:flappy_game/components/bird.dart';
 import 'package:flappy_game/components/floor.dart';
 import 'package:flappy_game/components/pipe_set.dart';
+import 'package:flappy_game/components/score.dart';
 import 'package:flappy_game/components/titles.dart';
 import 'package:flappy_game/game_state.dart';
 import 'package:flappy_game/main.dart';
@@ -19,12 +20,14 @@ class MyGame extends BaseGame with TapDetector{
   Floor _floor;
   PipeSet _pipeSet;
   Titles _titles;
+  Score _score;
 
   MyGame(){
     _bird = Bird();
     _floor = Floor();
     _titles = Titles();
     _pipeSet = PipeSet();
+    _score = Score();
 
 
 
@@ -33,7 +36,8 @@ class MyGame extends BaseGame with TapDetector{
       ..add(_pipeSet)
       ..add(_bird)
       ..add(_floor)
-      ..add(_titles);
+      ..add(_titles)
+      ..add(_score);
   }
 
   @override
@@ -44,6 +48,18 @@ class MyGame extends BaseGame with TapDetector{
       print("Game Over!!");
       gameState = GameState.gameover;
     }
+
+    if(checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeDownRect())){
+      print("Game Over!!");
+      gameState = GameState.gameover;
+    }
+
+    if(checkIf2CompoCollision(_bird.toRect(), _pipeSet.getPipeUpRect())){
+      print("Game Over!!");
+      gameState = GameState.gameover;
+    }
+
+    checkIfBirdPassedPipe();
 
   }
 
@@ -65,6 +81,17 @@ class MyGame extends BaseGame with TapDetector{
   bool checkIf2CompoCollision(Rect item1, Rect item2) {
     var intersectedRect = item1.intersect(item2);
     return intersectedRect.width > 2 && intersectedRect.height > 2;
+
+  }
+
+  bool checkIfBirdPassedPipe(){
+    if (_pipeSet.hadscored)
+      return false;
+
+    if (_pipeSet.getPipeDownRect().right < _bird.toRect().left){
+      print("Score!!");
+      _pipeSet.scoreUpdated();
+    }
 
   }
 
